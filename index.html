@@ -7,26 +7,47 @@
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+
     <title>Login web</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="logo">Nombre de la Página</div>
+            <nav class="nav">
+                <a href="#">Inicio</a>
+                <a href="#">Acerca de</a>
+                <a href="#">Contacto</a>
+            </nav>
+    </header>
+    <main class="main">
+        <form class="login-form">
+            <h2>Iniciar sesión</h2>
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Iniciar sesión</button>
+            <p>No tienes una cuenta? <a href="#">Regístrate aquí</a></p>
+        </form>
+    </main>
 </body>
 <footer>
     <div class="contenedor_Footer">
         
         <div class="menu-footer">
-          <ul class="lista-menu">
-            <li> <a href="#" class="lista-items">Acerca de</a></li>
-            <li> <a href="#" class="lista-items">Contacto</a></li>
-            <li> <a href="#" class="lista-items">Política de privacidad</a></li>
-          </ul>
+            <ul class="lista-menu">
+                <li> <a href="#" class="lista-items">Acerca de</a></li>
+                <li> <a href="#" class="lista-items">Contacto</a></li>
+                <li> <a href="#" class="lista-items">Política de privacidad</a></li>
+            </ul>
         </div>
 
         <div class="copirait">
             <p class="texto-copirait">© 2023 Edwin Velasquez. Todos los derechos reservados.</p>
-          </div>
+        </div>
     </div>
-  </footer>
-  
+</footer>
+
 </html>
